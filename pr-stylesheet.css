@@ -1,3 +1,212 @@
 :root{
     --rpink: #D1337C;
-}
+    --liquidblur: rgba(255, 255, 255, 0.1);
+    --shadow: rgba(31, 38, 135, 0.37);
+    }
+
+body {
+    background-image: url('pics/woods_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        .container {
+            header {
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 48px;
+                color: whitesmoke;
+            }
+
+            section.all-robins {
+
+                section.robin-one {
+                    width: 92%;
+                    margin: 0.5rem;
+                    padding: 1rem;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    background-color: var(--liquidblur);
+                    box-shadow: 0 8px 32px 0 var(--shadow);
+                    border-radius: 16px;
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    border: 1px solid whitesmoke;
+
+                    article {
+                        h2 {
+                            color: whitesmoke;
+                            text-decoration: none;
+
+                            a {
+                                text-align: right;
+                                text-decoration: none;
+                                color: silver;
+                            }
+                        }
+
+
+                    }
+
+                    aside.pull {
+                        display: inline-block;
+                        max-width: 150px;
+
+                        > img {
+                            width: 50%;
+                            border-radius: 5px;
+                        }
+
+                        &.left {
+                            float: left;
+                            margin: 0 0 5px 15px;
+                        }
+
+                        &.right {
+
+                            margin: 0 0 5px 15px;
+                        }
+                    }
+                    a{
+                        text-align: right;
+                        text-decoration: none;
+                        color: silver;
+                    }
+                }
+
+                section.robin-two {
+                    width: 92%;
+                    margin: 0.5rem;
+                    padding: 1rem;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    background-color: var(--liquidblur);
+                    box-shadow: 0 8px 32px 0 var(--shadow);
+                    border-radius: 10px;
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    border: 1px solid whitesmoke;
+
+                    article {
+                        h2 {
+                            color: whitesmoke;
+                            text-decoration: none;
+
+                            a {
+                                text-align: right;
+                                text-decoration: none;
+                                color: silver;
+                            }
+                        }
+
+
+                    }
+
+                    aside.pull {
+                        display: inline-block;
+                        max-width: 150px;
+
+                        > img {
+                            width: 50%;
+                            border-radius: 5px;
+                        }
+
+                        &.left {
+                            float: left;
+                            margin: 0 0 5px 15px;
+                        }
+
+                        &.right {
+
+                            margin: 0 0 5px 15px;
+                        }
+                    }
+                    a{
+                        text-align: right;
+                        text-decoration: none;
+                        color: silver;
+                    }
+                }
+
+
+                section.robin-three {
+                    width: 92%;
+                    margin: 0.5rem;
+                    padding: 1rem;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    background-color: var(--liquidblur);
+                    box-shadow: 0 8px 32px 0 var(--shadow);
+                    border-radius: 16px;
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    border: 1px solid whitesmoke;
+
+                    article {
+                        h2 {
+                            color: whitesmoke;
+                            text-decoration: none;
+
+                            a {
+                                text-align: right;
+                                text-decoration: none;
+                                color: silver;
+                            }
+                        }
+
+                    }
+
+
+                        aside.pull {
+                            display: inline-block;
+                            max-width: 150px;
+
+                            > img {
+                                width: 50%;
+                                border-radius: 5px;
+                            }
+
+                            &.left {
+                                float: left;
+                                margin: 0 0 5px 15px;
+                            }
+
+                            &.right {
+
+                                margin: 0 0 5px 15px;
+                            }
+                        }
+                    a{
+                        text-align: right;
+                        text-decoration: none;
+                        color: silver;
+                    }
+                    }
+
+
+
+
+
+                }
+            }
+
+        }
+
+    footer {
+        color: var(--liquidblur);
+        font-size: 25px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+
+
+
